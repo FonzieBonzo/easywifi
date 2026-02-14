@@ -35,7 +35,7 @@ board = esp32doit-devkit-v1
 framework = arduino
 
 lib_deps =
-    https://github.com/YOUR-USERNAME/easywifi.git
+    https://github.com/FonzieBonzo/easywifi.git
 ```
 
 ### Basic Usage
