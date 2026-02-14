@@ -1,0 +1,38 @@
+{
+  "name": "EasyWifi",
+  "version": "1.0.0",
+  "description": "ESP32 WiFi configuration library with web interface, custom settings API, and OTA firmware updates. Features dark mode GUI, MQTT support, and persistent NVS storage.",
+  "keywords": "esp32, wifi, webserver, ota, configuration, mqtt, preferences, nvs, mdns, dark-mode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FonzieBonzo/easywifi.git"
+  },
+  "authors": [
+    {
+      "name": "Your Name",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/FonzieBonzo/easywifi",
+  "frameworks": ["arduino"],
+  "platforms": ["espressif32"],
+  "version": "1.0.0",
+  "dependencies": [],
+  "export": {
+    "include": [
+      "src/easywifi.h",
+      "src/easywifi.cpp"
+    ],
+    "exclude": [
+      "src/main.cpp"
+    ]
+  },
+  "examples": [
+    {
+      "name": "BasicUsage",
+      "base": "examples/BasicUsage",
+      "files": ["BasicUsage.ino"]
+    }
+  ]
+}
